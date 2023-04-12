@@ -1,14 +1,11 @@
-//
-// Created by budzy on 12.04.2023.
-//
 
-#ifndef LISTA_6_C___WYRAZENIE_H
-#define LISTA_6_C___WYRAZENIE_H
+#pragma once
 
 
 class Wyrazenie {
+public:
+    virtual void oblicz() =0;
+    virtual void zapis() =0;
 
 };
 
-
-#endif //LISTA_6_C___WYRAZENIE_H
